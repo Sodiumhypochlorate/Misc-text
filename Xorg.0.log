@@ -1,0 +1,104 @@
+[   758.038] (WW) Failed to open protocol names file lib/xorg/protocol.txt
+[   758.039] 
+X.Org X Server 1.20.1
+X Protocol Version 11, Revision 0
+[   758.041] Build Operating System: Linux Arch Linux
+[   758.042] Current Operating System: Linux macrosoft 4.18.9-arch1-1-ARCH #1 SMP PREEMPT Wed Sep 19 21:19:17 UTC 2018 x86_64
+[   758.042] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=86b38837-fd20-47f3-bbdc-800b10bd08a6 rw quiet
+[   758.044] Build Date: 09 August 2018  06:37:34PM
+[   758.044]  
+[   758.045] Current version of pixman: 0.34.0
+[   758.046] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   758.046] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   758.048] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Sep 28 19:25:14 2018
+[   758.048] (==) Using config file: "/etc/X11/xorg.conf"
+[   758.049] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   758.049] (==) ServerLayout "Layout0"
+[   758.049] (**) |-->Screen "Screen0" (0)
+[   758.049] (**) |   |-->Monitor "Monitor0"
+[   758.049] (**) |   |-->Device "Device0"
+[   758.049] (**) |-->Input Device "Keyboard0"
+[   758.049] (**) |-->Input Device "Mouse0"
+[   758.049] (**) Option "Xinerama" "0"
+[   758.049] (==) Automatically adding devices
+[   758.049] (==) Automatically enabling devices
+[   758.049] (==) Automatically adding GPU devices
+[   758.049] (==) Automatically binding GPU devices
+[   758.049] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   758.049] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/misc".
+[   758.049] 	Entry deleted from font path.
+[   758.049] 	(Run 'mkfontdir' on "/usr/share/fonts/misc").
+[   758.049] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[   758.049] 	Entry deleted from font path.
+[   758.049] (==) FontPath set to:
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/Type1,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[   758.049] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   758.049] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[   758.049] (WW) Disabling Keyboard0
+[   758.049] (WW) Disabling Mouse0
+[   758.049] (II) Module ABI versions:
+[   758.049] 	X.Org ANSI C Emulation: 0.4
+[   758.049] 	X.Org Video Driver: 24.0
+[   758.049] 	X.Org XInput driver : 24.1
+[   758.049] 	X.Org Server Extension : 10.0
+[   758.050] (++) using VT number 1
+
+[   758.051] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[   758.051] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   758.052] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 10 paused 0
+[   758.053] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[   758.054] (--) PCI:*(9@0:0:0) 10de:1c82:1043:8626 rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000d000/128, BIOS @ 0x????????/524288
+[   758.054] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[   758.054] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[   758.054] (II) LoadModule: "dbe"
+[   758.054] (II) Module "dbe" already built-in
+[   758.054] (II) LoadModule: "extmod"
+[   758.054] (II) Module "extmod" already built-in
+[   758.054] (II) LoadModule: "glx"
+[   758.054] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   758.055] (II) Module glx: vendor="X.Org Foundation"
+[   758.055] 	compiled for 1.20.1, module version = 1.0.0
+[   758.055] 	ABI class: X.Org Server Extension, version 10.0
+[   758.055] (II) LoadModule: "nvidia"
+[   758.055] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[   758.055] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   758.055] 	compiled for 4.0.2, module version = 1.0.0
+[   758.055] 	Module class: X.Org Video Driver
+[   758.055] (II) NVIDIA dlloader X Driver  410.57  Tue Sep 18 23:30:38 CDT 2018
+[   758.055] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   758.055] (II) systemd-logind: releasing fd for 226:0
+[   758.056] (II) Loading sub module "fb"
+[   758.056] (II) LoadModule: "fb"
+[   758.056] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   758.056] (II) Module fb: vendor="X.Org Foundation"
+[   758.056] 	compiled for 1.20.1, module version = 1.0.0
+[   758.056] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   758.056] (II) Loading sub module "wfb"
+[   758.056] (II) LoadModule: "wfb"
+[   758.056] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   758.056] (II) Module wfb: vendor="X.Org Foundation"
+[   758.056] 	compiled for 1.20.1, module version = 1.0.0
+[   758.056] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   758.056] (II) Loading sub module "ramdac"
+[   758.056] (II) LoadModule: "ramdac"
+[   758.056] (II) Module "ramdac" already built-in
+[   758.056] (EE) NVIDIA: Failed to initialize the NVIDIA kernel module. Please see the
+[   758.056] (EE) NVIDIA:     system's kernel log for additional error messages and
+[   758.056] (EE) NVIDIA:     consult the NVIDIA README for details.
+[   758.056] (EE) No devices detected.
+[   758.056] (EE) 
+Fatal server error:
+[   758.056] (EE) no screens found(EE) 
+[   758.056] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   758.056] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[   758.056] (EE) 
+[   758.058] (EE) Server terminated with error (1). Closing log file.
